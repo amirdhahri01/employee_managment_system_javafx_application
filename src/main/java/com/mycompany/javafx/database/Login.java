@@ -50,8 +50,8 @@ public class Login implements Initializable {
             map.put(a.getUsername(), a.getPassword());
         }
         if(map.containsKey(username.getText())){
-            String val2 = password.getText();
-            if(val2.equals(username.getText())){
+            String val2 = map.get(username.getText());
+            if(val2.equals(password.getText())){
                 check.setTextFill(Color.GREEN);
                 check.setText("Success !");
                 App.setRoot("ControlPanel");

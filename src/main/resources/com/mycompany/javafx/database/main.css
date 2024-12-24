@@ -2,3 +2,11 @@
 .mainFxmlClass {
 
 }
+Button{
+    -fx-background-color:yellow;
+    -fx-font-weight:bold;
+    -fx-border-style: solid ;
+    -fx-border-width:2;
+    -fx-border-radius:20;
+    -fx-background-radius:20;
+}
